@@ -1,18 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import Contracts from './components/contracts.js';
 function App() {
   return (
-    <div className="App">
-      <h1>Max</h1>
-      <h1>Max</h1>
-      <h1>Max</h1>
-      <h1>Max</h1>
-      <h1>Max</h1>
-      <h1>Max</h1>
-    </div>
+    <Contracts />
   );
 }
-
 export default App;
